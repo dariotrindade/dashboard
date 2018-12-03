@@ -1,0 +1,30 @@
+body {
+    background-color:#E8EDF3;  
+}
+
+.margin-top-2em {
+    margin-top: 2.5em;
+}
+
+.bg-green {
+    background-color: #1DC1C2;
+}
+
+.bg-purpple {
+    background-color: #8162FD;
+}
+
+.bg-blue {
+    background-color: #1A65C2;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }

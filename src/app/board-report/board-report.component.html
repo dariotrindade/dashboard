@@ -1,0 +1,28 @@
+<h5 class="mb-4">Relatórios</h5>
+<div class="row">
+  <!-- <div class="col-lg-6" *ngFor="let board of board.board"> -->
+  <div class="col-lg-6">
+    <div class="card text-white bg-green mb-3 animated fadeInLeft" data-wow-delay="0.6s">
+      <div class="card-body text-center">
+        <p class="card-title">Usuários Atendidos</p>
+        <h1 class="card-title">10 </h1>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-6" *ngIf="router.url == '/UserDetails'">
+    <div class="card text-white bg-white mb-3 animated fadeInLeft" data-wow-delay="1.3s">
+      <div class="card-body text-center">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </div>
+  <div class="col-6" *ngIf="router.url == '/Section'">
+    <div class="card text-white bg-purpple mb-3 animated fadeInLeft" data-wow-delay="1.3s">
+      <div class="card-body text-center">
+        <p class="card-title">Usuários Atendidos</p>
+        <h1 class="card-title">26</h1>
+      </div>
+    </div>
+  </div>
+</div>

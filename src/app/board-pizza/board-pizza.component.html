@@ -1,0 +1,14 @@
+<p class="card-title text-uppercase">Histórico de atendimento</p>
+<a href="/UserDetails">
+  <div class="card bg-white mb-3 mb-3 animated fadeInLeft" data-wow-delay="0s">
+    <div class="card-body">
+      <div style="display: block">
+        <canvas baseChart [data]="doughnutChartData" [colors]="barChartColors" [labels]="doughnutChartLabels" [options]="barChartOptions"
+          [chartType]="doughnutChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+        </canvas>
+      </div>
+      <a href="#" class="card-link float-right">Ver mais</a>
+    </div>
+  </div>
+
+</a>

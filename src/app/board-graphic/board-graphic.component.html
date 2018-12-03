@@ -1,0 +1,41 @@
+<hr>
+<div class="row">
+  <div class="col-lg-6">
+    <p class="card-title text-uppercase">Quantidade de interações</p>
+    <div class="card card bg-white mb-3 mb-3 animated fadeInLeft" data-wow-delay="0.6s">
+      <div class="card-body">
+          <div>
+              <div style="display: block">
+                <canvas baseChart
+                        [datasets]="barChartData"
+                        [labels]="barChartLabels"
+                        [options]="barChartOptions"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                        (chartHover)="chartHovered($event)"
+                        (chartClick)="chartClicked($event)"></canvas>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <p class="card-title text-uppercase">Duração dos atendimentos</p>
+    <div class="card card bg-white mb-3 mb-3 animated fadeInLeft" data-wow-delay="1.3s">
+      <div class="card-body">
+          <div>
+              <div style="display: block">
+                <canvas baseChart
+                        [datasets]="barChartData"
+                        [labels]="barChartLabels"
+                        [options]="barChartOptions"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                        (chartHover)="chartHovered($event)"
+                        (chartClick)="chartClicked($event)"></canvas>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
